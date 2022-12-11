@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "firstname": "Gianluiggi",
+        "lastname": "Buffon",
+        "phone": "00256215555"
+    },
+    {
+        "id": 2,
+        "firstname": "Gianluiggi",
+        "lastname": "Buffon",
+        "phone": "00256213344"
+    },
+    {
+        "id": 3,
+        "firstname": "Gianluiggi",
+        "lastname": "Buffon",
+        "phone": "00256217777"
+    },
+    {
+        "id": 4,
+        "firstname": "Gianluiggi",
+        "lastname": "Buffon",
+        "phone": "00256225555"
+    }
+]

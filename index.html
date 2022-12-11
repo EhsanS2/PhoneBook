@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/styles/main.css" />
+        <title>PhoneBook | Made With ♥</title>
+    </head>
+    <body>
+        <div class="main_container">
+            <div class="alphabets">
+                <div class="key pink">A</div>
+                <div class="key orange">B</div>
+                <div class="key yellow">C</div>
+                <div class="key green">D</div>
+                <div class="key blue">E</div>
+                <div class="key pink">F</div>
+                <div class="key orange">G</div>
+                <div class="key yellow">H</div>
+                <div class="key green">I</div>
+                <div class="key blue">J</div>
+                <div class="key pink">K</div>
+                <div class="key orange">L</div>
+                <div class="key yellow">M</div>
+                <div class="key green">N</div>
+                <div class="key blue">O</div>
+                <div class="key pink">P</div>
+                <div class="key orange">Q</div>
+                <div class="key yellow">R</div>
+                <div class="key green">S</div>
+                <div class="key blue">T</div>
+                <div class="key pink">U</div>
+                <div class="key orange">V</div>
+                <div class="key yellow">W</div>
+                <div class="key green">X</div>
+                <div class="key blue">Y</div>
+                <div class="key pink">Z</div>
+            </div>
+            <div class="covers">
+                <div class="cover_back"></div>
+                <div class="cover_front">
+                    <div class="tag">Phone Book</div>
+                </div>
+            </div>
+        </div>
+        <!-- add button-->
+        <div class="add">
+            <i class="fa-solid fa-circle-plus"></i>
+        </div>
+        <!-- add dialogue box -->
+        <div class="addbox_container">
+            <div class="title_bar">
+                <p class="title">New Contact</p>
+                <div class="x">
+                    <i class="fa-solid fa-square-xmark"></i>
+                </div>
+            </div>
+            <div class="input_data">
+                <!-- inputs come here -->
+                <div class="input_container">
+                    <input type="hidden" name="id2" />
+                    <input
+                        type="text"
+                        id="firstname"
+                        placeholder="First Name ..."
+                    />
+                    <p class="result">Must be filled</p>
+                    <br />
+                    <input
+                        type="text"
+                        id="lastname"
+                        placeholder="Last Name ..."
+                    />
+                    <p class="result">Must be filled</p>
+                    <br />
+                    <input type="text" id="phone" placeholder="Phone ..." />
+                    <p class="result">Only digits are allowed</p>
+                    <br />
+                    <button id="add">Add</button>
+                </div>
+                <p id="result"></p>
+            </div>
+        </div>
+        <script src="./assets/scripts/main.js"></script>
+    </body>
+</html>
