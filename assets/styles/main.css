@@ -1,24 +1,11 @@
 @import url("./all.css");
+@import url("./colors.css");
+
 * {
     /*css reset*/
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-.pink {
-    background-color: #f3a8bc;
-}
-.orange {
-    background-color: #f5ad94;
-}
-.yellow {
-    background-color: #fff1a6;
-}
-.green {
-    background-color: #b4f9a5;
-}
-.blue {
-    background-color: #9ee7f5;
 }
 body {
     position: relative;
